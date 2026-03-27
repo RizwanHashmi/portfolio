@@ -166,7 +166,7 @@ const Hero = () => {
               {/* Image Container */}
               <div className="relative w-full h-full rounded-full overflow-hidden border-2 border-[#d1f366]/20">
                 <img
-                  src="/profile-photo.jpg"
+                  src={`${import.meta.env.BASE_URL}profile-photo.jpg`}
                   alt="Syed Rizwan Hashmi"
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 />

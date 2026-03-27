@@ -22,7 +22,7 @@ const Projects = () => {
     {
       title: 'upGrad Living',
       description: 'A comprehensive mobile application designed to enhance the quality of life for residents in university hostels and communal living environments.',
-      image: '/project-upgrad-living.jpg',
+      image: `${import.meta.env.BASE_URL}project-upgrad-living.jpg`,
       techStack: ['Kotlin', 'Jetpack Compose', 'Firebase', 'REST APIs'],
       features: [
         'Daily menus and meal scheduling',
@@ -35,7 +35,7 @@ const Projects = () => {
     {
       title: 'ATLAS Buzz',
       description: 'Mobile application to enhance the admission process for schools affiliated with ATLAS University, featuring MCQ exams and secure payments.',
-      image: '/project-atlas-buzz.jpg',
+      image: `${import.meta.env.BASE_URL}project-atlas-buzz.jpg`,
       techStack: ['Kotlin', 'Material Design', 'Razorpay', 'Cashfree'],
       features: [
         'MCQ Exam with four different sections',
@@ -48,7 +48,7 @@ const Projects = () => {
     {
       title: 'EFI Tracking',
       description: 'Employee management and reporting application with GPS technology and real-time location tracking for field staff.',
-      image: '/project-efi-tracking.jpg',
+      image: `${import.meta.env.BASE_URL}project-efi-tracking.jpg`,
       techStack: ['Java', 'Google Maps SDK', 'FCM', 'SQLite'],
       features: [
         'Real-time GPS location tracking',
@@ -61,7 +61,7 @@ const Projects = () => {
     {
       title: 'ATLAS HR App',
       description: 'Comprehensive HR management application simplifying employee routines, leave management, and workplace communication.',
-      image: '/project-atlas-hr.jpg',
+      image: `${import.meta.env.BASE_URL}project-atlas-hr.jpg`,
       techStack: ['Kotlin', 'MVVM', 'Room', 'FCM'],
       features: [
         'Daily check-in/out timing',
@@ -74,7 +74,7 @@ const Projects = () => {
     {
       title: 'ATLAS Admin',
       description: 'A mobile app designed to streamline administrative processes within educational institutions under ATLAS Skill Tech University, offering rich data visualization with graphs and charts for informed decision-making.',
-      image: '/project-atlas-admin.svg',
+      image: `${import.meta.env.BASE_URL}project-atlas-admin.svg`,
       techStack: ['Kotlin', 'SQLite', 'MVVM', 'REST APIs'],
       features: [
         'Student information & fees management',
@@ -87,7 +87,7 @@ const Projects = () => {
     {
       title: 'Future Tech',
       description: 'A versatile mobile app catering to students and faculty at ATLAS Skill Tech University, with role-based access, real-time academic information, and integrated payment gateways.',
-      image: '/project-future-tech.svg',
+      image: `${import.meta.env.BASE_URL}project-future-tech.svg`,
       techStack: ['Kotlin', 'Razorpay', 'Cashfree', 'QR Scanner'],
       features: [
         'Role-based login for students, parents & faculty',
