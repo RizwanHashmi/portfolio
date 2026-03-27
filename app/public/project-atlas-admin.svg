@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ec4899"/>
+      <stop offset="100%" style="stop-color:#f472b6"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.03"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <!-- Decorative circles -->
+  <circle cx="200" cy="600" r="300" fill="#ec4899" opacity="0.05"/>
+  <circle cx="1100" cy="100" r="250" fill="#ec4899" opacity="0.08"/>
+  <!-- Phone mockup -->
+  <rect x="490" y="60" width="300" height="600" rx="30" fill="#0d0d0d" stroke="#333" stroke-width="2"/>
+  <rect x="505" y="90" width="270" height="540" rx="5" fill="#1e1e2e"/>
+  <!-- Status bar -->
+  <text x="520" y="115" fill="#aaa" font-family="Arial" font-size="12">9:41</text>
+  <!-- App header -->
+  <rect x="505" y="125" width="270" height="50" fill="url(#accent)"/>
+  <text x="560" y="156" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="16">ATLAS Admin</text>
+  <!-- Dashboard cards -->
+  <rect x="515" y="190" width="120" height="70" rx="8" fill="url(#card)" stroke="#ec4899" stroke-width="0.5" stroke-opacity="0.3"/>
+  <text x="535" y="218" fill="#ec4899" font-family="Arial" font-size="11">Students</text>
+  <text x="535" y="245" fill="white" font-family="Arial" font-weight="bold" font-size="18">2,450</text>
+  <rect x="645" y="190" width="120" height="70" rx="8" fill="url(#card)" stroke="#ec4899" stroke-width="0.5" stroke-opacity="0.3"/>
+  <text x="665" y="218" fill="#ec4899" font-family="Arial" font-size="11">Fees</text>
+  <text x="665" y="245" fill="white" font-family="Arial" font-weight="bold" font-size="18">$85K</text>
+  <rect x="515" y="270" width="120" height="70" rx="8" fill="url(#card)" stroke="#ec4899" stroke-width="0.5" stroke-opacity="0.3"/>
+  <text x="535" y="298" fill="#ec4899" font-family="Arial" font-size="11">Admissions</text>
+  <text x="535" y="325" fill="white" font-family="Arial" font-weight="bold" font-size="18">340</text>
+  <rect x="645" y="270" width="120" height="70" rx="8" fill="url(#card)" stroke="#ec4899" stroke-width="0.5" stroke-opacity="0.3"/>
+  <text x="665" y="298" fill="#ec4899" font-family="Arial" font-size="11">Visitors</text>
+  <text x="665" y="325" fill="white" font-family="Arial" font-weight="bold" font-size="18">127</text>
+  <!-- Chart area -->
+  <rect x="515" y="355" width="250" height="120" rx="8" fill="url(#card)" stroke="#ec4899" stroke-width="0.5" stroke-opacity="0.3"/>
+  <text x="530" y="378" fill="#aaa" font-family="Arial" font-size="11">Weekly Overview</text>
+  <!-- Bar chart -->
+  <rect x="540" y="430" width="20" height="30" rx="2" fill="#ec4899" opacity="0.6"/>
+  <rect x="570" y="415" width="20" height="45" rx="2" fill="#ec4899" opacity="0.7"/>
+  <rect x="600" y="400" width="20" height="60" rx="2" fill="#ec4899" opacity="0.8"/>
+  <rect x="630" y="420" width="20" height="40" rx="2" fill="#ec4899" opacity="0.7"/>
+  <rect x="660" y="395" width="20" height="65" rx="2" fill="#ec4899" opacity="0.9"/>
+  <rect x="690" y="410" width="20" height="50" rx="2" fill="#ec4899" opacity="0.75"/>
+  <rect x="720" y="425" width="20" height="35" rx="2" fill="#ec4899"/>
+  <!-- Nav bar -->
+  <rect x="505" y="580" width="270" height="50" fill="#0d0d0d"/>
+  <circle cx="555" cy="605" r="8" fill="#ec4899" opacity="0.8"/>
+  <circle cx="615" cy="605" r="8" fill="#555"/>
+  <circle cx="675" cy="605" r="8" fill="#555"/>
+  <circle cx="735" cy="605" r="8" fill="#555"/>
+</svg>
